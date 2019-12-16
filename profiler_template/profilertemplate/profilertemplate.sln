@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "profilertemplate", "profilertemplate\profilertemplate.vcxproj", "{50FB90AC-7914-452B-8AFC-0CD2693A2399}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50FB90AC-7914-452B-8AFC-0CD2693A2399}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50FB90AC-7914-452B-8AFC-0CD2693A2399}.Debug|Win32.Build.0 = Debug|Win32
+		{50FB90AC-7914-452B-8AFC-0CD2693A2399}.Release|Win32.ActiveCfg = Release|Win32
+		{50FB90AC-7914-452B-8AFC-0CD2693A2399}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

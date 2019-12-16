@@ -1,0 +1,14 @@
+Time per frame:
+----------------------------------------------------------------
+  Ave(ms)	|  Min(ms)	|  Max(ms)	|  Profile Name
+----------------------------------------------------------------
+  1		|  0		|  1		|  Vector insert profiler
+  1		|  0		|  1		|  Map insert profiler
+  1		|  0		|  2		|  HashMap insert profiler
+----------------------------------------------------------------
+
+
+Profile "Vector insert profiler" takes a total of 0.105 seconds.
+Profile "Map insert profiler" takes a total of 0.538997 seconds.
+Profile "HashMap insert profiler" takes a total of 1.302 seconds.
+

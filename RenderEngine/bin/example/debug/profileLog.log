@@ -1,0 +1,12 @@
+Time per frame:
+----------------------------------------------------------------
+  Ave(ms)	|  Min(ms)	|  Max(ms)	|  Profile Name
+----------------------------------------------------------------
+  59		|  47		|  78		|  Main Loop
+  59		|  47		|  78		|     Addition
+----------------------------------------------------------------
+
+
+Profile "Main Loop" takes a total of 4.969 seconds.
+   Profile "Addition" takes a total of 4.969 seconds.
+

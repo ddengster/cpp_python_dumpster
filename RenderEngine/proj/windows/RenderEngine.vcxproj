@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9A8825F6-8467-4CA1-B71E-722568AA0524}</ProjectGuid>
+    <RootNamespace>RenderEngine</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../bin/lib/$(Configuration)/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../bin/lib/$(Configuration)/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)$(ProjectName)_BuildLog.htm</Path>
+    </BuildLog>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\src\RenderEngine\include;$(SolutionDir)../../deps/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)$(Configuration).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;opengl32.lib;glu32.lib;FreeImaged.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../deps/lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)$(ProjectName)_BuildLog.htm</Path>
+    </BuildLog>
+    <ClCompile>
+      <AdditionalIncludeDirectories>$(SolutionDir)..\..\src\RenderEngine\include;$(SolutionDir)../../deps/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)$(Configuration).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;opengl32.lib;glu32.lib;FreeImage.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../deps/lib/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\RenderEngine\src\Profiler\Profiler.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\LogManager\LogManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\GenericMath.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\MathConstants.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Matrix3.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Matrix4.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Plane.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Quaternion.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderEngine.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9Renderer.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLRenderer.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9HardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9IndexBuffer.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9VertexBuffer.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\HardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLHardwareBufferManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLIndexBuffer.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLVertexBuffer.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\VertexDeclaration.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9Texture.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9TextureManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLTexture.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLTextureManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\Texture.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\TextureManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9Shader.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9ShaderManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLShader.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLShaderManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\Shader.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\ShaderManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\SceneManager\SceneManager.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\SceneManager\SceneNode.cpp" />
+    <ClCompile Include="..\..\src\RenderEngine\src\GLee.c">
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+      <ObjectFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.obj</ObjectFileName>
+      <XMLDocumentationFileName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(IntDir)%(Filename)1.xdc</XMLDocumentationFileName>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\DataManagement\FrameMemoryPool.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\RenderEngine\include\Defines.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Headers.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Prerequisites.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Profiler\Profiler.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\LogManager\LogManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\FreeImage.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\GLee.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\stdint.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\AxisAlignedBox.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\GenericMath.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\MathHeaders.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Matrix3.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Matrix4.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Plane.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Quaternion.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Ray.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Sphere.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Vector2.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Vector3.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Vector4.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\GLHeaders.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderEngine.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RendererDefines.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderSystemHeaders.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\SceneManager\SceneManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\SceneManager\SceneNode.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9Renderer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\IRenderer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLRenderer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9HardwareBufferManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9IndexBuffer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9VertexBuffer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\HardwareBufferManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\IndexBuffer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLHardwareBufferManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLIndexBuffer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLVertexBuffer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\VertexBuffer.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\VertexDeclaration.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9Texture.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9TextureManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLTexture.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLTextureManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\Texture.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\TextureManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9Shader.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9ShaderManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLShader.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLShaderManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\Shader.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\ShaderManager.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\FrameMemoryPool.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\FreeListPool.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\HashTable_Str.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\Resource.h" />
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\ResourceManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\RenderEngine\include\Math\GenericMath.inl" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

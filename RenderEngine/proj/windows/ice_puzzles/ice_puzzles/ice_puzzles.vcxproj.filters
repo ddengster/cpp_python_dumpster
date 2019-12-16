@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\GameState">
+      <UniqueIdentifier>{9c4a8957-b819-4dc6-aedd-a57d16d77a03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameWorld">
+      <UniqueIdentifier>{7b82bad5-11c4-4e12-bbdd-cf0e3a84109a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GUI">
+      <UniqueIdentifier>{616cc2eb-a222-4232-ba05-73913ac2e3b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\External">
+      <UniqueIdentifier>{f3ee41f8-a37b-4466-b9cd-23e6490b82b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\GameState">
+      <UniqueIdentifier>{c127c0c1-1538-4296-9fc1-17dfac7b5cb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GameWorld">
+      <UniqueIdentifier>{1340d8f5-5d93-4575-9267-f8f574144c5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\GUI">
+      <UniqueIdentifier>{6b868f37-a01d-4beb-b2d6-3d138f9c9c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External">
+      <UniqueIdentifier>{da57908b-91e2-4b74-9096-fea1d8c82dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\External\fmod">
+      <UniqueIdentifier>{e7e24540-efcd-4c42-9b4c-2fababb6c77c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SoundManager">
+      <UniqueIdentifier>{0c2feaf7-bc36-4eff-89c3-ef280bcd5f8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\AppMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\InputMgr.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\MAIN.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameState_GamePlay.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameState_MainMenu.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameState_SinglePlayerMenu.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameStateManager.cpp">
+      <Filter>Source Files\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameCamera.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameWorld.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\Player.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\Tile.cpp">
+      <Filter>Source Files\GameWorld</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GUI.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UIButton.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UIEditableTextBox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UIPopup.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UITable.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UITextBox.cpp">
+      <Filter>Source Files\GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\include\SoundManager.cpp">
+      <Filter>Header Files\SoundManager</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\AppMain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\InputMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState_GamePlay.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState_MainMenu.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState_SinglePlayerMenu.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameStateManager.h">
+      <Filter>Header Files\GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameCamera.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameWorld.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\Player.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\Tile.h">
+      <Filter>Header Files\GameWorld</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GUI.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIButton.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIEditableTextBox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIElement.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIInteractiveElement.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIPopup.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UITable.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UITextBox.h">
+      <Filter>Header Files\GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GLee.h">
+      <Filter>Header Files\External</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\fmod.h">
+      <Filter>Header Files\External\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\fmod_errors.h">
+      <Filter>Header Files\External\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\fmoddyn.h">
+      <Filter>Header Files\External\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\wincompat.h">
+      <Filter>Header Files\External\fmod</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\SoundManager.h">
+      <Filter>Header Files\SoundManager</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

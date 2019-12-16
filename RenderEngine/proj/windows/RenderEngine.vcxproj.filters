@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Profiler">
+      <UniqueIdentifier>{9cfce7ae-94eb-4101-a80f-fc0013fa9674}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\LogManager">
+      <UniqueIdentifier>{0145b842-35c8-460b-add9-998223bbe53b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Math">
+      <UniqueIdentifier>{92d58361-444b-480b-969f-22bd47a467e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderSystem">
+      <UniqueIdentifier>{278397dc-eb76-40ed-996e-d31548cf0494}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderSystem\RenderingComponents">
+      <UniqueIdentifier>{72edbcd3-043d-4bbf-8506-bb4cfa1283c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderSystem\RenderingComponents\HardwareBuffer">
+      <UniqueIdentifier>{373786df-9347-47db-b5f1-7a95c2d93f99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderSystem\RenderingComponents\Textures">
+      <UniqueIdentifier>{ffce1163-61d4-44e3-8223-9ac7a98fe265}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderSystem\RenderingComponents\Shaders">
+      <UniqueIdentifier>{4ecbcf32-b20f-40d2-8bc3-7aec732f82f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RenderSystem\SceneManager">
+      <UniqueIdentifier>{feacbba0-385e-4d8f-9d0a-3e3f118e754f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ExternalFiles">
+      <UniqueIdentifier>{47157c72-70e1-41ab-a231-1a3484b44831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\DataManagement">
+      <UniqueIdentifier>{887616dc-cd13-428c-bb5e-2c699cc98a38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Profiler">
+      <UniqueIdentifier>{aff475a7-975e-45c8-bfb5-a234814c8335}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\LogManager">
+      <UniqueIdentifier>{67b87d48-9e9a-4367-8a49-348027fd2f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ExternalFiles">
+      <UniqueIdentifier>{ad67fd13-9dc5-4b53-ba80-4154264eefe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{edd9c671-b919-4e85-a8a9-986c4847d9b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderSystem">
+      <UniqueIdentifier>{95de43a5-6a96-4f8b-93d6-5a0adfe915c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderSystem\SceneManager">
+      <UniqueIdentifier>{4be99cbf-b32f-41fa-b601-a9bf01670156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderSystem\RenderingComponents">
+      <UniqueIdentifier>{6e326669-f0b4-4414-8aca-080755e793f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderSystem\RenderingComponents\HardwareBuffer">
+      <UniqueIdentifier>{19923f10-a6b8-43f8-96aa-65f5f7cb6542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderSystem\RenderingComponents\Textures">
+      <UniqueIdentifier>{ffa6dfbf-66ca-4330-b750-d3fd55b1f6b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RenderSystem\RenderingComponents\Shaders">
+      <UniqueIdentifier>{bfccaa08-cb4d-4f89-bd01-f755fb666bd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\DataManagement">
+      <UniqueIdentifier>{c7193d6c-c81d-4766-88d4-bce1bf1d5aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\src\RenderEngine\src\Profiler\Profiler.cpp">
+      <Filter>Source Files\Profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\LogManager\LogManager.cpp">
+      <Filter>Source Files\LogManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\GenericMath.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\MathConstants.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Matrix3.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Matrix4.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Plane.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\Math\Quaternion.cpp">
+      <Filter>Source Files\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderEngine.cpp">
+      <Filter>Source Files\RenderSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9Renderer.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLRenderer.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9HardwareBufferManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9IndexBuffer.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9VertexBuffer.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\HardwareBufferManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLHardwareBufferManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLIndexBuffer.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLVertexBuffer.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\VertexDeclaration.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9Texture.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9TextureManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLTexture.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLTextureManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\Texture.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\TextureManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9Shader.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\DX9ShaderManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLShader.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\OGLShaderManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\Shader.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\RenderingComponents\ShaderManager.cpp">
+      <Filter>Source Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\SceneManager\SceneManager.cpp">
+      <Filter>Source Files\RenderSystem\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\RenderSystem\SceneManager\SceneNode.cpp">
+      <Filter>Source Files\RenderSystem\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\GLee.c">
+      <Filter>Source Files\ExternalFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\RenderEngine\src\DataManagement\FrameMemoryPool.cpp">
+      <Filter>Source Files\DataManagement</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\src\RenderEngine\include\Defines.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Prerequisites.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Profiler\Profiler.h">
+      <Filter>Header Files\Profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\LogManager\LogManager.h">
+      <Filter>Header Files\LogManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\FreeImage.h">
+      <Filter>Header Files\ExternalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\GLee.h">
+      <Filter>Header Files\ExternalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\stdint.h">
+      <Filter>Header Files\ExternalFiles</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\AxisAlignedBox.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\GenericMath.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\MathHeaders.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Matrix3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Matrix4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Plane.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Quaternion.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Ray.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Sphere.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Vector2.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Vector3.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\Math\Vector4.h">
+      <Filter>Header Files\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\GLHeaders.h">
+      <Filter>Header Files\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderEngine.h">
+      <Filter>Header Files\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RendererDefines.h">
+      <Filter>Header Files\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderSystemHeaders.h">
+      <Filter>Header Files\RenderSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\SceneManager\SceneManager.h">
+      <Filter>Header Files\RenderSystem\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\SceneManager\SceneNode.h">
+      <Filter>Header Files\RenderSystem\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9Renderer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\IRenderer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLRenderer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9HardwareBufferManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9IndexBuffer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9VertexBuffer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\HardwareBufferManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\IndexBuffer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLHardwareBufferManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLIndexBuffer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLVertexBuffer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\VertexBuffer.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\VertexDeclaration.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\HardwareBuffer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9Texture.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9TextureManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLTexture.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLTextureManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\Texture.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\TextureManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Textures</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9Shader.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\DX9ShaderManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLShader.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\OGLShaderManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\Shader.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\RenderSystem\RenderingComponents\ShaderManager.h">
+      <Filter>Header Files\RenderSystem\RenderingComponents\Shaders</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\FrameMemoryPool.h">
+      <Filter>Header Files\DataManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\FreeListPool.h">
+      <Filter>Header Files\DataManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\HashTable_Str.h">
+      <Filter>Header Files\DataManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\Resource.h">
+      <Filter>Header Files\DataManagement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\src\RenderEngine\include\DataManagement\ResourceManager.h">
+      <Filter>Header Files\DataManagement</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\src\RenderEngine\include\Math\GenericMath.inl">
+      <Filter>Header Files\Math</Filter>
+    </None>
+  </ItemGroup>
+</Project>

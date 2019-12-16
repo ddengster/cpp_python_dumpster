@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Math">
+      <UniqueIdentifier>{f424af6c-2436-4a78-b07c-36ea26df9405}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other">
+      <UniqueIdentifier>{fcaf74e5-3def-481b-9826-c0bde05764a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\SIMD_SSE">
+      <UniqueIdentifier>{8a8a41d6-fd32-437c-8174-1042178323cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal">
+      <UniqueIdentifier>{42f52707-8a1e-4e57-ad6a-a48a6ecb763f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal\Vector">
+      <UniqueIdentifier>{7179c5ff-5e2f-40a6-ac73-6389d02b9cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal\Matrices">
+      <UniqueIdentifier>{2917eded-833f-4c28-b275-0417d8b81392}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal\BoundingVol">
+      <UniqueIdentifier>{42d4c6f3-3541-4fd9-a83b-b5641756f99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal\Other">
+      <UniqueIdentifier>{df758996-0db9-485b-9d82-e1bfc4aaf062}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal\BoundingVol\AABB">
+      <UniqueIdentifier>{be5ead29-e38c-4096-9766-c365ec522849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Todo">
+      <UniqueIdentifier>{8fc5e236-c154-4801-8b9b-49ff233bdabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Math\Normal\BoundingVol\Circular">
+      <UniqueIdentifier>{44434119-e90f-4064-a103-d2b2db3a212d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other\profiler">
+      <UniqueIdentifier>{a7299d78-f6be-4bb8-8057-87cfa3037a3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\GenericMath.cpp">
+      <Filter>Header Files\Math\Normal</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Vector2.cpp">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Vector3.cpp">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Vector4.cpp">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Matrix3.cpp">
+      <Filter>Header Files\Math\Normal\Matrices</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Matrix4.cpp">
+      <Filter>Header Files\Math\Normal\Matrices</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Quaternion.cpp">
+      <Filter>Header Files\Math\Normal\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\AABB2D.cpp">
+      <Filter>Header Files\Math\Normal\BoundingVol\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\Profiler.cpp">
+      <Filter>Header Files\other\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="profiler\LogManager.cpp">
+      <Filter>Header Files\other\profiler</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\AABB3D.cpp">
+      <Filter>Header Files\Math\Normal\BoundingVol\AABB</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Ray3D.cpp">
+      <Filter>Header Files\Math\Normal\Other</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Plane.cpp">
+      <Filter>Header Files\Math\Normal\BoundingVol</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\Frustum.cpp">
+      <Filter>Header Files\Math\Normal\BoundingVol</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Normal\IntersectionFunctions.cpp">
+      <Filter>Header Files\Math\Normal</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Math\Normal\GenericMath.h">
+      <Filter>Header Files\Math\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\MathHeaders.h">
+      <Filter>Header Files\Math\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Vector2.h">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="test_vector2.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Vector3.h">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="test_vector3.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Vector4.h">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="test_vector4.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Matrix3.h">
+      <Filter>Header Files\Math\Normal\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="test_matrix3.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Matrix4.h">
+      <Filter>Header Files\Math\Normal\Matrices</Filter>
+    </ClInclude>
+    <ClInclude Include="test_matrix4.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Quaternion.h">
+      <Filter>Header Files\Math\Normal\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="test_quaternion.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\iBoundingVolume2D.h">
+      <Filter>Header Files\Math\Normal\BoundingVol</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\iBoundingVolume3D.h">
+      <Filter>Header Files\Math\Normal\BoundingVol</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\AABB2D.h">
+      <Filter>Header Files\Math\Normal\BoundingVol\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="test_aabb2d.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\LogManager.h">
+      <Filter>Header Files\other\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="profiler\Profiler.h">
+      <Filter>Header Files\other\profiler</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\AABB3D.h">
+      <Filter>Header Files\Math\Normal\BoundingVol\AABB</Filter>
+    </ClInclude>
+    <ClInclude Include="test_aabb3d.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Ray3D.h">
+      <Filter>Header Files\Math\Normal\Other</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Sphere.h">
+      <Filter>Header Files\Math\Normal\BoundingVol\Circular</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Circle.h">
+      <Filter>Header Files\Math\Normal\BoundingVol\Circular</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Plane.h">
+      <Filter>Header Files\Math\Normal\BoundingVol</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\Frustum.h">
+      <Filter>Header Files\Math\Normal\BoundingVol</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Normal\IntersectionFunctions.h">
+      <Filter>Header Files\Math\Normal</Filter>
+    </ClInclude>
+    <ClInclude Include="test_ray3d.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="test_sphere.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="test_plane.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+    <ClInclude Include="test_frustum.h">
+      <Filter>Header Files\other</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Math\Normal\GenericMath.inl">
+      <Filter>Header Files\Math\Normal</Filter>
+    </None>
+    <None Include="Math\Normal\Vector2.inl">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </None>
+    <None Include="Math\Normal\Vector3.inl">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </None>
+    <None Include="Math\Normal\Vector4.inl">
+      <Filter>Header Files\Math\Normal\Vector</Filter>
+    </None>
+    <None Include="Math\Normal\Matrix3.inl">
+      <Filter>Header Files\Math\Normal\Matrices</Filter>
+    </None>
+    <None Include="Math\Normal\Matrix4.inl">
+      <Filter>Header Files\Math\Normal\Matrices</Filter>
+    </None>
+    <None Include="Math\Normal\Quaternion.inl">
+      <Filter>Header Files\Math\Normal\Other</Filter>
+    </None>
+    <None Include="TODO.txt">
+      <Filter>Todo</Filter>
+    </None>
+  </ItemGroup>
+</Project>

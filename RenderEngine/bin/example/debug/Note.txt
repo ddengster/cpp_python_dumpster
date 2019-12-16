@@ -1,0 +1,1 @@
+Cant change directory of .ilk files in vc2005 apparently

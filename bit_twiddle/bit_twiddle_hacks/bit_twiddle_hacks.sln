@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C++ Express 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "bit_twiddle_hacks", "bit_twiddle_hacks\bit_twiddle_hacks.vcxproj", "{36F92224-C709-4E95-9CDD-0ABF5042B775}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{36F92224-C709-4E95-9CDD-0ABF5042B775}.Debug|Win32.ActiveCfg = Debug|Win32
+		{36F92224-C709-4E95-9CDD-0ABF5042B775}.Debug|Win32.Build.0 = Debug|Win32
+		{36F92224-C709-4E95-9CDD-0ABF5042B775}.Release|Win32.ActiveCfg = Release|Win32
+		{36F92224-C709-4E95-9CDD-0ABF5042B775}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

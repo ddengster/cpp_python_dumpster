@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{0C533916-5787-4C4E-B96D-D2981844ED85}</ProjectGuid>
+    <RootNamespace>ice_puzzles</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.30319.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">../../../../bin/ice_puzzles/$(Configuration)/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">../../../../bin/ice_puzzles/$(Configuration)/\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Configuration)\</IntDir>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)$(ProjectName)_BuildLog.htm</Path>
+    </BuildLog>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>../../../../src/RenderEngine/include/;../../../../ice_puzzles_src/include/;../../../../deps/include/ftgl_include;./../../../deps/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;FTGL_LIBRARY_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>RenderEngine.lib;ftgl_static.lib;freetype2311MT.lib;fmodvc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../../bin/lib/$(Configuration);../../../../deps/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <BuildLog>
+      <Path>$(IntDir)$(ProjectName)_BuildLog.htm</Path>
+    </BuildLog>
+    <ClCompile>
+      <AdditionalIncludeDirectories>../../../../src/RenderEngine/include/;../../../../ice_puzzles_src/include/;../../../../deps/include/ftgl_include;./../../../deps/include/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;FTGL_LIBRARY_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <ProgramDataBaseFileName>$(IntDir)$(ProjectName).pdb</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>RenderEngine.lib;ftgl_static.lib;freetype2311MT.lib;fmodvc.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>../../../../bin/lib/$(Configuration);../../../../deps/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(IntDir)$(TargetName).pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\AppMain.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\InputMgr.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\MAIN.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameState_GamePlay.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameState_MainMenu.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameState_SinglePlayerMenu.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameStateManager.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameCamera.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GameWorld.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\Player.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\Tile.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\GUI.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UIButton.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UIEditableTextBox.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UIPopup.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UITable.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\src\UITextBox.cpp" />
+    <ClCompile Include="..\..\..\..\ice_puzzles_src\include\SoundManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\AppMain.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\InputMgr.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState_GamePlay.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState_MainMenu.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameState_SinglePlayerMenu.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameStateManager.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameCamera.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GameWorld.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\Player.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\Tile.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GUI.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIButton.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIEditableTextBox.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIElement.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIInteractiveElement.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UIPopup.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UITable.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\UITextBox.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\GLee.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\fmod.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\fmod_errors.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\fmoddyn.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\fmod\wincompat.h" />
+    <ClInclude Include="..\..\..\..\ice_puzzles_src\include\SoundManager.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

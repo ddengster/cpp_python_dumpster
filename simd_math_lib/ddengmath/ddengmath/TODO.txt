@@ -1,0 +1,6 @@
+
+
+- Normal
+
+- SIMD/SSE
+1) All of Normal
