@@ -1,0 +1,496 @@
+Date	Start	End	Tentative Hours Worked	Effective Hours worked	Notes		
+Monday, December 29, 2014	12:00:00 PM	11:00:00 PM	11:00	1			
+Tuesday, December 30, 2014	12:00:00 PM	11:00:00 PM	11:00	2			
+Wednesday, December 31, 2014	06:00:00 PM	11:30:00 PM	05:30	2			
+Thursday, January 01, 2015	02:00:00 PM	06:00:00 PM	04:00	2			
+Friday, January 02, 2015	02:00:00 PM	01:30:00 AM	11:30	3			
+Saturday, January 03, 2015	12:00:00 PM	12:00:00 AM	12:00	3	Worked on clang reflection		
+Sunday, January 04, 2015	01:00:00 PM	02:00:00 AM	13:00	5	Worked on clang reflection		
+Monday, January 05, 2015	12:00:00 PM	12:00:00 AM	12:00	2	Musing on unity vs custom engine, game design paper prototype		
+Tuesday, January 06, 2015	12:00:00 PM	12:00:00 AM	12:00	0	Lack of sleep,tired		
+Wednesday, January 07, 2015	02:00:00 PM	12:00:00 AM	10:00	5	"Network refactoring; Found a good paradigm for network programming!;
+Also some work in reflection refactoring (for compile times)"	Use lambdas to respond to network messages	
+Thursday, January 08, 2015	02:00:00 PM	12:00:00 AM	10:00	4	"Reflection refactoring (members only);
+Halfway on refactoring xml serialization;
+Compile times reduced by estimated fifth"		
+Friday, January 09, 2015	01:00:00 PM	12:00:00 AM	11:00	4	"xml serialization;
+Working on xml deserialization"		
+Saturday, January 10, 2015	12:00:00 PM	12:00:00 AM	12:00	2	"xml deserialization; very small gains in compile times and executable sizes
+Learnt that we need 0.8mb per objdesc!"		
+Sunday, January 11, 2015				0	break day		
+Monday, January 12, 2015	12:00:00 PM	12:00:00 AM	12:00	4	"Reduced compile time by ~2s and library size by about 60%;
+learnt that careless inclusion of stl can bloat ~100kb per ob"		
+Tuesday, January 13, 2015	01:00:00 PM	12:00:00 AM	11:00	4	have to rework how reflection is done due to linker problems		
+Wednesday, January 14, 2015	12:00:00 PM	12:00:00 AM	12:00	4	Reflection 80% reworked		
+Thursday, January 15, 2015	11:00:00 AM	12:00:00 AM	13:00	4	"Reflection reworked. Putting back some de/serializer stuff. 
+30% of day spent on building"		
+Friday, January 16, 2015	12:00:00 PM	01:00:00 AM	13:00	4	Putting broken stuff back in, migration to msvc2013, added crc32		
+Saturday, January 17, 2015	12:00:00 PM	12:00:00 AM	12:00	2	Graphics debugger now working		
+Sunday, January 18, 2015				0	break day		
+Monday, January 19, 2015	12:00:00 PM	12:00:00 AM	12:00	4	Assimp initial integration; data written correctly but not tested. BEWARE PROCASTINATION!		
+Tuesday, January 20, 2015	12:00:00 PM	12:00:00 AM	12:00	3	Assimp tested with static models, texturing		
+Wednesday, January 21, 2015	12:00:00 PM	12:00:00 AM	12:00	3	Assimp node hierarchy rendering 80%. BEWARE PROCASTINATION!		
+Thursday, January 22, 2015	12:00:00 AM	12:00:00 AM	00:00	4	Nodes done. Now doing bones. Write skinning shader, Bone animation next day?		
+Friday, January 23, 2015	12:00:00 AM	12:00:00 AM	00:00	4	Write skinning shader done. Bugfixes. Bone animation next day		
+Saturday, January 24, 2015	11:00:00 AM	01:00:00 AM	14:00	4	Animation data imported, animation has bugs		
+Sunday, January 25, 2015	11:00:00 AM	05:00:00 PM	06:00	2	Bugfix with quaternions, animation has weight related bugs		
+Monday, January 26, 2015	11:00:00 AM	12:00:00 AM	13:00	4	Skeletal animation basics finished! Now to optimize data structures		
+Tuesday, January 27, 2015	11:00:00 AM	12:00:00 AM	13:00	3	Slight break: Optimized LOG macros instead		
+Wednesday, January 28, 2015	11:00:00 AM	12:00:00 AM	13:00	4	"Brushed up animation data structures;fixed asset builder and directories; 
+added performance test for skeletal anims; did some optimizations;
+More optimizations tml"	Any template – elimination?	
+Thursday, January 29, 2015	10:00:00 AM	12:00:00 AM	14:00	4	50% Musing on efficient data representation for TNScene format		
+Friday, January 30, 2015	10:00:00 AM	12:00:00 AM	14:00	5	Foolproofed/Optimized TNScene format and skeletal animations	Just found out how to do unity builds + multiprocessor compile! ~60% speedup in compile times!	
+Saturday, January 31, 2015	10:00:00 AM	05:00:00 PM	07:00	1	Optimized builds + cleanup, musing on Any cleanup(but will be skipping it since compile times have improved)		
+Sunday, February 01, 2015				0	break day		
+Monday, February 02, 2015	12:00:00 PM	12:00:00 AM	12:00	1	Ability refactoring, some musing on seperating 'Attack' from actual castable abilities		Remember: Target was 2 workdays!
+Tuesday, February 03, 2015	12:00:00 PM	12:00:00 AM	12:00	4	Ability refactoring done! Game now uses models; fixed some bugs		Netplay: 2days
+Wednesday, February 04, 2015	12:00:00 PM	12:00:00 AM	12:00	1	"Musing about netplay, server/client vs lockstep; 
+Reworked order of todos for next few days"	"1) Overworld state network model rework (authoritative updates), 2days
+2) Lockstep for encounters, ~2 days"	
+Thursday, February 05, 2015	12:00:00 PM	12:00:00 AM	12:00	2	"Wrote out flow for intro and hub area; some refactoring for overworld hub state
+BEWARE PROCASTINATION!!"		
+Friday, February 06, 2015	12:00:00 PM	02:00:00 AM	14:00	2	"Thinking out stuff for snapshot sending, going to refactor player to a more 
+C-style way, and make it slightly more persistent. PROCASTINATION! 
+And running!"	"Learnt - Server/client interpolated snapshots implementation:
+1) Ensure that simulation can serialize/deserialize snapshots properly on a local machine. 
+Test with an input, also make sure that deserializing works with the existing simulation
+2) Setup player data to be independent of simulation data"	
+Saturday, February 07, 2015	12:00:00 PM	02:00:00 AM	14:00	2	"Minimized c-style methods, prefer to use structs and their functions to 
+minimize data crossing. PROCASTINATION! And running!"	"Targets adjusted:
+1) Overworld state finished by tuesday
+2) Lockstep finished by friday"	
+Sunday, February 08, 2015	09:00:00 PM	01:00:00 AM	04:00	1	break day; working on removing ctexturesets		
+Monday, February 09, 2015	12:00:00 PM	01:00:00 AM	13:00	3	"Seperated playerdata from simulation, playerdata now syncs proper;
+some work on snapshots, 
+Refactoring cTextureSet out, considering adding option to inc ref count"	"- It's fast when you know how exactly to do things + 
+Have little progress earlier"	
+Tuesday, February 10, 2015	12:00:00 PM	12:00:00 AM	12:00	3	"Some work on state snapshots, some work on usercommand refactoring;
+Need to consider getting rid of EngineAssets/Textures and 
+floating directories up;
+"	- UserCommand is a good example of how not to use inheritance;	
+Wednesday, February 11, 2015	12:00:00 PM	12:00:00 AM	12:00	3	"Snapshots working with 2 players now, doing ui flow now;
+sample for a threadpool up. PROCASTINATION!"		
+Thursday, February 12, 2015	12:00:00 PM	01:00:00 AM	13:00	3	Flow up for snapshots. Some work on batchrendering. PROCASTINATION!		
+Friday, February 13, 2015	12:00:00 PM	01:00:00 AM	13:00	3	More snapshot bugfixing and cleanups.	"Test Cases for networking:
+Host perspective:
+1) Host server, client join, client quits
+2) Host server, client join, host quits
+3) Host server, x2+ client join, x1 client quits, then x1 client quits
+4) Host server, x2+ client join, host quits
+Client perspective:
+1) Host server, client join, client quits
+2) Host server, client join, host quits
+3) Host server, x2+ client join, other client quits
+
+Also: Use handles for resources and objects if possible"	
+Saturday, February 14, 2015	12:00:00 PM	01:00:00 AM	13:00	2	Working on lockstep.PROCASTINATION		
+Sunday, February 15, 2015	09:00:00 PM	01:00:00 AM	04:00	0	break day		
+Monday, February 16, 2015	12:00:00 PM	01:00:00 AM	13:00	2	"Some Lockstep implementation. THEORYCRAFTING!(too much time on that)
+AND PROCASTINATION!"		
+Tuesday, February 17, 2015	12:00:00 PM	01:00:00 AM	13:00	2	"THEORYCRAFTING AND PROCASTINATION! Lockstep. 
+Some performance tests on threadpool"	Revise lockstep algorithm	
+Wednesday, February 18, 2015	12:00:00 PM	01:00:00 AM	13:00	0	PROCASTINATION! OMFG		
+Thursday, February 19, 2015	12:00:00 PM	12:00:00 AM	12:00	0	PROCASTINATION! OMFG		
+Friday, February 20, 2015	12:00:00 PM	12:00:00 AM	12:00	0	PROCASTINATION! OMFG		
+Saturday, February 21, 2015	12:00:00 PM	12:00:00 AM	12:00	0	PROCASTINATION! OMFG		
+Sunday, February 22, 2015	09:00:00 PM	01:00:00 AM	04:00	0	break day		
+Monday, February 23, 2015	12:00:00 PM	12:00:00 AM	12:00	2	Slow work on lockstep. Started experimenting with Allocators for stl		
+Tuesday, February 24, 2015	12:00:00 PM	12:00:00 AM	12:00	2	Lockstep working but not synced		
+Wednesday, February 25, 2015	12:00:00 PM	12:00:00 AM	12:00	2	Lockstep working, somewhat synced. Reworked directory file structure		
+Thursday, February 26, 2015	12:00:00 PM	02:00:00 AM	14:00	3	Tested network emulation. Integrated threadpool, trying to improve perf for skeletal anim		
+Friday, February 27, 2015	12:00:00 PM	02:00:00 AM	14:00	3	PROCASTINATION! OMFG! Performance improvements for skeletal anim	"Networking minitasks:
+1) Overworld – encounter Cycle
+2) Replays/Lockstep synchronization"	
+Saturday, February 28, 2015	12:00:00 PM	12:00:00 AM	12:00	2	encounter->overworld cycle done. Skeletal anim performance imrpvs merged		
+Sunday, March 01, 2015	09:00:00 PM	01:00:00 AM	04:00	0	break day		
+				NEW STRATEGY			
+Monday, March 02, 2015	12:00:00 PM	12:00:00 AM	12:00	"camera entities merged(0.5hr); editor mode initials(2hr;); 
+camera middle btn(1.5h);editor mode morework(0.5h);
+Hfsm cleanup(3h) – total 6.5h"	"Delay optimize batching until stb_image, stb_ttf and slot tables are in;
+place objects in level editor by tml"		
+Tuesday, March 03, 2015	12:00:00 PM	12:00:00 AM	12:00	"include file cleanup(0.5h); editor mode transform tools(4h);
+Editor mode save level(0);stb_image replacement(1h);
+Font lookup(0.5h) - total 6h"	stb_font deferred; rework gui rendering first, then integrate stb_image		
+Wednesday, March 04, 2015	04:00:00 PM	12:00:00 AM	08:00	"editor mode mapinfo+bugfixes(2h), write to xml file(1h);
+Font rendering(ctextquickdraw) optimized(1h) – total 4h"	need to focus on getting our prescribed gameplay flow up		
+Thursday, March 05, 2015	12:00:00 PM	06:00:00 PM	06:00	"runtime cpp lookup(.5h); xml levelfile load(.5h);
+undo/redo + 3x bugfixes(3h); load unit(0.5h); total 4h"	Reform file loading – xml trimming, de/serialization		
+Friday, March 06, 2015	12:00:00 PM	12:00:00 AM	12:00	Objectmember visitation refactored/reworked (8h)			
+Saturday, March 07, 2015	12:00:00 PM	11:00:00 PM	11:00	"Floating point xml de/serialization adjustment(1.5h), 
+Version tagging(1h) – total 2.5h"		"current outstanding significant problems:
+1) slot map
+2) lockstep/sync"	
+Sunday, March 08, 2015	09:00:00 PM	01:00:00 AM	04:00	0	break day		
+Monday, March 09, 2015	12:00:00 PM	12:00:00 AM	12:00	"fix anttweakbar array member serialization(2h); 
+delete function +inspect unit bars(2h) – spatials(0.5h) 
+- total 4.5h"		"- Undo/redo can be done convieniently via 
+Replacing commands to units with a simple unit binary de/serialization"	
+Tuesday, March 10, 2015	12:00:00 PM	12:00:00 AM	12:00	"slotmap, object handles, baseentity refactoring(2.5h);
+More work on spatials(1h); LE settings save/load(1h);
+Improve compile times for game(1h) – total 5.5h"			
+Wednesday, March 11, 2015	11:00:00 AM	01:30:00 AM	14:30	"removed stringstream from xmlfile(1h); musing on how to
+Save/load entities(0h); save/load prefabbed hero chooser(3h)
+-total 4h"		"- Extra work: eliminate weak_ptr and smart_ptrs
+- possible huge bottleneck in XMLDeserializeScript
+AllocateAndInitialize() gui entities"	
+Thursday, March 12, 2015	11:00:00 AM	12:00:00 AM	13:00	"removed weak and shared ptr from cunit(1.5h); 
+hero chooser with collisioncmp bugfixes(3h); 
+Connect units from hub to encounter(1h) – total 5.5h"			
+Friday, March 13, 2015	11:00:00 AM	12:00:00 AM	13:00	"necromancer ai up again(3.5h); circles on selection(0.5h);
+Circles on mouseover(0.5h); victory scripts + 
+transitioning(0.5h); gui refactor initials(0.5h) – total 5.5h"			
+Saturday, March 14, 2015	11:00:00 AM	12:00:00 AM	13:00	GUI rework, support anchoring and heirachy (4h)	slightly tired today		
+Sunday, March 15, 2015				0	break day		
+Monday, March 16, 2015	11:30:00 AM	12:30:00 AM	13:00	"GUI orientations fixed(3h);trying to use stbfonts(2.5h) – 
+total 6h"			
+Tuesday, March 17, 2015	11:00:00 AM	12:30:00 AM	13:30	"using stbfonts – succeeded!(4h); cleanup + textcmp 
+Continued refactoring(2.5h) – total 7.5h"			
+Wednesday, March 18, 2015	11:30:00 AM	01:00:00 AM	13:30	gui cleanups(4.5h); textbox tooltip(2h); - total 6.5h	Todo:Build text colors into text processing of textcmp		
+Thursday, March 19, 2015	12:30:00 PM	01:00:00 AM	12:30	more ui cleanups + gameplay input bugfixes – total 3h			
+Friday, March 20, 2015	12:30:00 PM	12:00:00 AM	11:30	Turning ai thinkthrough, some navagent impl  - total 1.5h			
+Saturday, March 21, 2015	12:30:00 PM	12:00:00 AM	11:30	Simple Turning ai – total 1.5h			
+Sunday, March 22, 2015							
+Monday, March 23, 2015				Musing on world representations – 0h	Considering hexagons, investigating wc3 engine		
+Tuesday, March 24, 2015				Musing on world representations – 0h			
+Wednesday, March 25, 2015				Library trip, investigation on computational geometry – 0h	Decision – no hexgons, use dynamic constrainted delaunay triangulation for pathfinding, and a placement grid		
+Thursday, March 26, 2015	12:30:00 PM	12:00:00 AM		Placement grid + alignment for units – 3h total			
+Friday, March 27, 2015	12:30:00 PM	12:00:00 AM		Study on computational geometry delaunay triangulation stuff			
+Saturday, March 28, 2015							
+Sunday, March 29, 2015							
+Monday, March 30, 2015				note taking on paper			
+Tuesday, March 31, 2015				note taking on paper			
+Wednesday, April 01, 2015				Navmesh Implementation start			
+Thursday, April 02, 2015							
+Friday, April 03, 2015							
+Saturday, April 04, 2015				some navmesh work – total 1h			
+Sunday, April 05, 2015							
+Monday, April 06, 2015	12:30:00 PM	12:00:00 AM	11:30	"navmesh vertex insertion, allocation for navmesh vertices
+– total8h"			
+Tuesday, April 07, 2015	12:00:00 PM	12:00:00 AM	12:00	navmesh edge vtx insertion fixes – 6h total			
+Wednesday, April 08, 2015	02:30:00 PM	12:30:00 AM	10:00	navmesh face vtx insertion, faces references corrected – 6h			
+Thursday, April 09, 2015	12:00:00 PM	12:30:00 AM	12:30	navmesh vtx insertion fixes - 6h			
+Friday, April 10, 2015	12:00:00 PM	05:00:00 PM	05:00	navmesh constraint work, alumni night – 1h			
+Saturday, April 11, 2015	02:00:00 PM	12:30:00 AM	10:30	navmesh costraint work – 2h			
+Sunday, April 12, 2015							
+Monday, April 13, 2015	12:00:00 PM	11:00:00 PM	11:00	late sleep last night. Navmesh segment constraint insertion - 1H work			
+Tuesday, April 14, 2015	12:00:00 PM	12:00:00 AM	12:00	Navmesh segment constraint insertion – 6h			
+Wednesday, April 15, 2015	11:00:00 AM	12:00:00 AM	13:00	"Navmesh retriangulation of intersected edges(unconstrained)
+– 6h"	"Figured out good orientation for retriangulation, set origin of input edge to 
+always be the left of the other point inserted"		
+Thursday, April 16, 2015	10:30:00 AM	12:00:00 AM	13:30	"load constrainted vertices/segments from text file 2h, 
+Sector grid for lookups, vertices 4h – total 6h"	DDA/Bresenham are sampling algorithms, not too suitable for our querying stuff approach		
+Friday, April 17, 2015	12:00:00 PM	12:00:00 AM	12:00	"sector grid for lookups, edges 4h, and triangles 2h – 
+total 6h"	spent too much time on edges before using the original edge and line eqn  method		
+Saturday, April 18, 2015	12:00:00 PM	12:00:00 AM	12:00	Reusing sector grid lookups, some work on constrainted edges - total 4h			
+Sunday, April 19, 2015	12:00:00 PM	05:00:00 PM	05:00	working on constrainted edge intersection- total 2h			
+Monday, April 20, 2015	12:00:00 PM	12:00:00 AM	12:00	fixing constrained edge insertion bugs – total 4h, hit snag in Anglada's paper			
+Tuesday, April 21, 2015	12:00:00 PM	11:30:00 PM	11:30	bugfixing: major problem in sorting of vertices for left/right polygons – total 1h			
+Wednesday, April 22, 2015	12:00:00 PM	12:00:00 AM	12:00	constraints insertion sorting order fixed! - total 5h			
+Thursday, April 23, 2015	12:00:00 PM	12:00:00 AM	12:00	Constraints segment insertion: vertex intersection fixed – total 4h, validate navmesh function – 0.5h	constraint removal after this		
+Friday, April 24, 2015	02:00:00 PM	02:00:00 AM	12:00	Constraints segment removal – total 3h			
+Saturday, April 25, 2015	12:00:00 PM	12:00:00 AM	12:00	Vertex removal for completeness – total 1h	anglada's paper does not work for deletion, have to use other methods		
+Sunday, April 26, 2015	12:00:00 PM	03:00:00 PM	03:00	Vertex removal work – total 2h			
+Monday, April 27, 2015	12:00:00 PM	12:00:00 AM	12:00	Vertex removal work – total 2h	"Vertex removal by devilllier doesnt work, going to resort to flipping algorithm;
+Should have gone to the simpler one :("		
+Tuesday, April 28, 2015	12:00:00 PM	12:00:00 AM	12:00	Vertex removal – total 3h	using simple circumcircle every 4 points algorithm instead		
+Wednesday, April 29, 2015	12:00:00 PM	12:00:00 AM	12:00	Vertex removal rework + double constraint edge case merged. Bugfix release mode FeedStreamIntoBuffer bug – total 4h	simple circumcircle every 4 points does not work; have to test for every point not in shell		
+Thursday, April 30, 2015	12:00:00 PM	12:00:00 AM	12:00	Triangle largest diameter studying – 2h	CHANGE IN RULES: Research-tasks now timeboxed at 1.5 hours a go, after which alternate to other coding tasks; must write tasks + estimated time to complete before embarking, time now written as (effective time/actual time)		
+Friday, May 01, 2015	12:00:00 PM	12:30:00 AM	12:30	Section 4.2 demyen's paper – 2.5h/3.25h Debug controls – 1.5h/1.5h – maximum diameter function 2h/4h – total 6h			
+Saturday, May 02, 2015	12:00:00 PM	01:00:00 AM	13:00	Section 4.3, 4.5 demyen's paper– 2h/13h – total 2h	Figuring out funnel algorithm		
+Sunday, May 03, 2015	12:00:00 PM			Continue funnel algo section 4.5 – 0/2h; abandoned			
+Monday, May 04, 2015	03:00:00 PM	12:30:00 AM	09:30	No sleep prev night. Reading up on Funnel algorithm – total 2h. Some readup on triangulation astar	Probably work on triangulation astar next		
+Tuesday, May 05, 2015	01:00:00 PM	12:30:00 AM	11:30	Selection of 2 points, show triangles, implement triangulation astar – 2h			
+Wednesday, May 06, 2015	01:00:00 PM	12:00:00 AM	11:00	Figuring out circle integral – 0.5h astar work – 0.5h	Circle integral to find arclength involves ln, so use cosine rule instead		
+Thursday, May 07, 2015	01:00:00 PM	12:00:00 AM	11:00	astar work – 3h/est 2h – total 3h	Basic Astar done; remaining tasks: display walking circle from pt A to pt B, ensure best case pathfinding when unit is too large for path, radius debugging, smoothed pathing with funnels		
+Friday, May 08, 2015	01:00:00 PM	12:00:00 AM	11:00	display walking circle,radius debugging – 1h	"Brain-dead tasks: 
+1) textfile Polygon navmesh setup + test
+Harder tasks:
+1) integrate pathing to component
+2) smoothed pathing, dealing with big radii objects
+3) integrate poly navmesh setups for buildings/units?
+4) integrate poly navmesh setups for abilities
+
+
+"		
+Saturday, May 09, 2015	01:00:00 PM	12:00:00 AM	11:00	new test case for navmesh – 1 bug discovered – 1h; break			
+Sunday, May 10, 2015	12:00:00 PM			break			
+Monday, May 11, 2015	01:00:00 PM	12:00:00 AM	11:00	navmesh deletion bugfixes (6h)			
+Tuesday, May 12, 2015	01:00:00 PM	12:00:00 AM	11:00	best paths for impossible destinations(2h)	figuring out how to use funnel with pathfinding results		
+Wednesday, May 13, 2015	01:00:00 PM	01:00:00 AM	12:00	funnel algo wip (2h)			
+Thursday, May 14, 2015	03:00:00 PM	01:00:00 AM	10:00	funnel algo wip (4h)			
+Friday, May 15, 2015	01:00:00 PM	01:00:00 AM	12:00	funnel algo working (non-radius) (4h)			
+Saturday, May 16, 2015	12:00:00 PM	01:00:00 AM	13:00	funnel algo radius expansion wip, debug funnel gfx (4h)			
+Sunday, May 17, 2015	12:00:00 PM			funnel algo radius attempt funnel apex grown by radii not enough, have to apply to rest of points			
+Monday, May 18, 2015	12:00:00 PM	01:00:00 AM	13:00	funnel algo radius done!(7h)			
+Tuesday, May 19, 2015	09:00:00 AM	12:00:00 AM	15:00	funnel radius bugfix, using better funnel detection algorithm(6h)			
+Wednesday, May 20, 2015	12:00:00 PM	12:00:00 AM	12:00	funnel algorithm improved yet again! (6h)			
+Thursday, May 21, 2015	11:30:00 AM	12:00:00 AM	12:30	improved debug mode performance(1h); pathing integrated to navagent(2h); some work on batch rendering(2h)	"http://www.gamedev.net/topic/668483-running-debug-and-release-code-simultaneously/, use _HAS_ITERATOR_DEBUGGING=0 across all static libraries/game
+Tasks left:
+3) integrate poly navmesh setups for buildings/units?
+4) integrate poly navmesh setups for abilities
+Unit editor coming up? (need to specify navmeshes for buildings)"		
+Friday, May 22, 2015	11:30:00 AM	01:00:00 AM	13:30	Batch rendering new system(3h); hardware cursors (2h)	can further improve batch rendering; translucency sorting not done yet		
+Saturday, May 23, 2015	12:30:00 PM	01:00:00 AM	12:30	Editor place navmesh(1h)			
+Sunday, May 24, 2015							
+Monday, May 25, 2015	11:30:00 AM	01:00:00 AM	13:30	navmesh constraint point editing (2h)	; Need revision on prototype; try more flow-based workflow?		
+Tuesday, May 26, 2015	11:00:00 AM	02:00:00 AM	15:00	eliminate select constraint(0.5h); add constraint(1h); level editor soapbox(0.5h); delete constraint(1h); game decision making(2h)			
+Wednesday, May 27, 2015	11:00:00 AM	02:00:00 AM	15:00	more gameplay decision making (~3h)			
+Thursday, May 28, 2015	11:00:00 AM	12:00:00 AM	13:00	constraints now have identifiers(1h)			
+Friday, May 29, 2015	11:00:00 AM	12:00:00 AM	13:00	ui load/touchup fix(2h); constraint del fix(1h); camera tweaking, zoom smoothing(2h)			
+Saturday, May 30, 2015	11:00:00 AM	12:00:00 AM	13:00	alancantrea no work :( (2h); materials fix(2h); fix camera picking again (2h)			
+Sunday, May 31, 2015							
+Monday, June 01, 2015	12:30:00 PM	12:00:00 AM	11:30	highlight units on selection boxing(1h); simple hp bars(3h); navmeshbar change to viewbar(2h)			
+Tuesday, June 02, 2015	12:30:00 PM	12:00:00 AM	11:30	managedrenderer fixes(1h); pathfind fixes(1h); musing on character controllers for rigidbody			
+Wednesday, June 03, 2015	12:30:00 PM	12:00:00 AM	11:30	character controller work(2h)	rigid bodies still push each other, have to use kinematic character controllers (prefarably with cylinders/capsules)		
+Thursday, June 04, 2015	12:30:00 PM	12:00:00 AM	11:30	character controller rethinking(0h)			
+Friday, June 05, 2015	12:30:00 PM	12:00:00 AM	11:30	character controller work(2h)			
+Saturday, June 06, 2015	12:30:00 PM	12:00:00 AM	11:30	no work day(ippt)			
+Sunday, June 07, 2015							
+Monday, June 08, 2015	12:30:00 PM	12:00:00 AM	11:30	penetration resolution(3h); game loop update	game loop updated		
+Tuesday, June 09, 2015	12:30:00 PM	12:00:00 AM	11:30	steering research (1h)			
+Wednesday, June 10, 2015	12:30:00 PM	12:00:00 AM	11:30	steering research/work(4h)			
+Thursday, June 11, 2015	12:30:00 PM	12:00:00 AM	11:30	steering work (4h)	found out about internal/external tangents between 2 circles, very useful		
+Friday, June 12, 2015	11:30:00 AM	02:00:00 AM	14:30	steering/movement static obstacles fixes(4h); shadows wip(1h)			
+Saturday, June 13, 2015	01:30:00 PM	02:00:00 AM	12:30	steering fixes + multiple obstacle (3h)			
+Sunday, June 14, 2015					steering tasks left: multiple static obs, navmesh edge detection, moving obstacles(delayed)		
+Monday, June 15, 2015	12:30:00 PM	02:00:00 AM	13:30	"Steering: clustering of multiple obstacles, 
+deadlock detection and reaction(4h); shadows wip(1h)"	still have the 'stuck' steering problem. Maybe decide based on feeler length (longest) if stuck?		
+Tuesday, June 16, 2015	12:30:00 PM	02:00:00 AM	13:30	collision: navmesh edges (3h)			
+Wednesday, June 17, 2015	12:30:00 PM	02:00:00 AM	13:30	collision: navmesh edges (3h)	"jagged movement when turning corners of navmesh debugging info:
+1) partly due to range-based check for arrival point, resulting in an earlier turn. Tried to do a 1 frame past arrival thing, but it looks more like a collision problem
+2) else could be a collision thing"		
+Thursday, June 18, 2015	12:30:00 PM	12:00:00 AM	11:30	steering: navmesh edges avoidance (4h)	still needs extreme testing on whether to avoid steering from edges		
+Friday, June 19, 2015	12:30:00 PM	11:30:00 PM	11:00	steering: formation movement (2h)			
+Saturday, June 20, 2015	12:30:00 PM	11:30:00 PM	11:00	steering: fix for reaching waypoints with one step less (2h)	NEED TO BAN NET ON SATURDAYS		
+Sunday, June 21, 2015							
+Monday, June 22, 2015	12:30:00 PM	12:00:00 AM	11:30	animation: loading specified ranges from file, movespeed adjustments for walk cycle(4h); blending research			
+Tuesday, June 23, 2015	12:30:00 PM	10:00:00 PM	09:30	"animation blending transitions(2h); turning fixes(2h); 
+depth preprocess shader(2h)"			
+Wednesday, June 24, 2015	11:30:00 AM	07:00:00 PM	07:30	work on shadows (2h); rethink how shaders are named(1h)			
+Thursday, June 25, 2015	11:00:00 AM	07:00:00 PM	08:00	shadows up (2h); modsdebugbar(1h)	http://www.gdcvault.com/play/1014514/AI-Navigation-It-s-Not		
+Friday, June 26, 2015	11:00:00 AM	07:00:00 PM	08:00	steering work on moving obstacles(1h)			
+Saturday, June 27, 2015	11:00:00 AM	07:00:00 PM	08:00	steering work on moving obstacles(1h)			
+Sunday, June 28, 2015							
+Monday, June 29, 2015	12:00:00 PM	12:00:00 AM	12:00	"steering found a good anti-stuck heuristic for choosing feelers
+Steering work on moving obstacles, (3h)"	Found out about reciprocal velocity obstacles(RVO)! Useful for local avoidance and steering. Used in crowd simulations		
+Tuesday, June 30, 2015	12:00:00 PM	12:00:00 AM	12:00	Research on ORCA/RVOs, added debug info(2h)			
+Wednesday, July 01, 2015	12:00:00 PM	12:00:00 AM	12:00	ocra/rvo steering work(2h)			
+Thursday, July 02, 2015	02:00:00 PM	12:00:00 AM	10:00	ocra/rvo steering work(2h)			
+Friday, July 03, 2015	01:00:00 PM	12:00:00 AM	11:00	ocra/rvo steering work(2h)	fixed positive sides of paths		
+Saturday, July 04, 2015	01:00:00 PM	12:00:00 AM	11:00	ocra/rvo steering work(2h)			
+Sunday, July 05, 2015							
+Monday, July 06, 2015	11:00:00 AM	12:00:00 AM	13:00	Steering: agent no longer picks feelers/pts with navedge elimination(2h) navedge collision – ensure all edges are collision-jerk proof (2h)			
+Tuesday, July 07, 2015	11:00:00 AM	12:00:00 AM	13:00	navedge collision(5h)			
+Wednesday, July 08, 2015	11:00:00 AM	12:00:00 AM	13:00	navedge collision (4h), bugfix with funnel algorithm crash(2h), fixing funnel algo grown vertex bug (1h)			
+Thursday, July 09, 2015	11:00:00 AM	12:00:00 AM	13:00	funnel algorithm major bugfixes(4h)	funnel algorithm still has a few minor bugs that occur with longer paths, will not fix		
+Friday, July 10, 2015				Reservist			
+Saturday, July 11, 2015				-			
+Sunday, July 12, 2015				Path endpoint trimming(0.5h)			
+12 – 17 july ict							
+Saturday, July 18, 2015	11:00:00 AM	12:00:00 AM	13:00	Path endpoint trimming rethinking; trying to find a way to improve the best path for unreachable goals(1h)			
+Sunday, July 19, 2015	11:00:00 AM	03:00:00 PM	04:00	"improved unreachable goal pathing solution(1h); 
+Endpoint trimming(2h); path straightening(1h)"			
+20 – 26 july ict							
+Monday, July 27, 2015	09:00:00 AM	12:00:00 AM	15:00	Simple pathfind retries(2h) + bugfixes with stopping and raycasting(2h)			
+Tuesday, July 28, 2015	09:00:00 AM	12:00:00 AM	15:00	Searching for pathfind solutions for apex being hit by feelers(1h)			
+Wednesday, July 29, 2015	10:00:00 AM	12:00:00 AM	14:00	bugfix for funnel points(1h)	PROCASTINATION! OMFG		
+Thursday, July 30, 2015	10:00:00 AM	10:00:00 PM	12:00	"debug trails(1h), musing on why steering isnt working 
+The way it should"			
+Friday, July 31, 2015	10:00:00 AM	11:15:00 PM	13:15	"unit body cmp now has a steer body; major steering fixes
+ (5h)"			
+Saturday, August 01, 2015	10:00:00 AM	12:00:00 AM	14:00	"found soln for tangents not found bug(1h); tweaks for 
+choosers(2h); facing direction takes into account physics
+corrections(1h)"			
+Sunday, August 02, 2015							
+Monday, August 03, 2015	10:00:00 AM	12:00:00 AM	14:00	"Pathing/steering now used with other unit commands(2h);
+Musing on how to do reclaimation feature"			
+Tuesday, August 04, 2015	10:00:00 AM	12:00:00 AM	14:00	Visible holes in navmesh/floor (2h)			
+Wednesday, August 05, 2015	10:00:00 AM	12:00:00 AM	14:00	Combination Hole bugfixes(3h)			
+Thursday, August 06, 2015	10:00:00 AM	12:00:00 AM	14:00	Musing on how to do hole reclamation(1h)	Soln: Use concept of enter/exit along the lines to be inserted 		
+Friday, August 07, 2015	10:00:00 AM	12:00:00 AM	14:00	hole reclamation problems(1h)			
+Saturday, August 08, 2015	12:00:00 PM	12:00:00 AM	12:00	hole reclamation problems(1h)			
+Sunday, August 09, 2015				fix hole reclamation (2h)			
+Monday, August 10, 2015	10:00:00 AM	12:00:00 AM	14:00	"multiple edge collision fix(4h); shortcuts for 
+Path straightening(1h)"			
+Tuesday, August 11, 2015	11:00:00 AM	12:00:00 AM	13:00	trying to fix more hole reclamation problems(3h)	WARNING:PROCRASTINATION		
+Wednesday, August 12, 2015	10:00:00 AM	12:00:00 AM	14:00	hole reclamation fixed!(2h) basic blocker building(1h)			
+Thursday, August 13, 2015	10:00:00 AM	11:30:00 PM	13:30	Simple blockers!(2h)resource bugfixes, cleanup(2h)			
+Friday, August 14, 2015	10:00:00 AM	07:30:00 PM	09:30	Blocker/hole graphics, lighting system for terrain(2h)	injury:(		
+Saturday, August 15, 2015	10:00:00 AM	12:00:00 AM	14:00	PROCASTINATION! And pain:(			
+Sunday, August 16, 2015							
+Monday, August 17, 2015	10:00:00 AM	01:00:00 AM	15:00	Navmesh save/load to editable blob(2h). Some editor navmesh edit tool refactor(0.5h)			
+Tuesday, August 18, 2015	10:00:00 AM	01:00:00 AM	15:00	navedit tools menu (2h)			
+Wednesday, August 19, 2015	01:00:00 PM	01:00:00 AM	12:00	airport in the morning; navmesh crash fixes (2h)			
+Thursday, August 20, 2015	10:00:00 AM	01:00:00 AM	15:00	navmesh insertion fixes and functionality(3h)			
+Friday, August 21, 2015	10:00:00 AM	01:00:00 AM	15:00	"hub level rebuilt, many bugfixes(3h), 
+hero gui updated for more heroes(1h)"			
+Saturday, August 22, 2015	10:00:00 AM	01:00:00 AM	15:00	Royal guard/swordsman ability prefabs (2h)			
+Sunday, August 23, 2015							
+Monday, August 24, 2015	10:00:00 AM	12:00:00 AM	14:00	4 more hero prototypes(6h)			
+Tuesday, August 25, 2015	10:00:00 AM	12:00:00 AM	14:00	attackpoint events from animations(2h)			
+Wednesday, August 26, 2015	10:00:00 AM	12:00:00 AM	14:00	castpoint events from animations, gui update &bugfixes, debug animation info(2h)			
+Thursday, August 27, 2015	10:00:00 AM	01:00:00 AM	15:00	taunt functionality, resurrect functionality for paladin skills, attack cooldown fixes, animation fixes(3.5h)			
+Friday, August 28, 2015	10:00:00 AM	01:00:00 AM	15:00	ranger abilities(3h), movespeed bugfixes, facing bugfixes(1h)			
+Saturday, August 29, 2015	10:00:00 AM	12:00:00 AM	14:00	priest abilities(2h), some fire mage ablities(1h)			
+Sunday, August 30, 2015							
+Monday, August 31, 2015	10:00:00 AM	12:00:00 AM	14:00	fire mage + ice mage abilities(4h); some projectile work(0.5h)			
+Tuesday, September 01, 2015	10:00:00 AM	12:00:00 AM	14:00	projectile work(2h)			
+Wednesday, September 02, 2015	10:00:00 AM	12:00:00 AM	14:00	projectile work(2h), arced projectiles(1h), gui encounter select(1h)			
+Thursday, September 03, 2015	10:00:00 AM	12:00:00 AM	14:00	Boards + gfx alpha blend fixing(2h); font colors(1h)			
+Friday, September 04, 2015	10:00:00 AM	12:00:00 AM	14:00	font colors complete(3h); openal integration(2h)			
+Saturday, September 05, 2015	10:00:00 AM	12:00:00 AM	14:00	openal integration, basic + looping sounds(3h)			
+Sunday, September 06, 2015	10:00:00 AM	12:00:00 AM	14:00	more audio work(2h)			
+Monday, September 07, 2015	10:00:00 AM	12:00:00 AM	14:00	ui updates for starting the encounter(1h); musing on boss scripts(1h)	"Prefer c-style function pointers if the functions are < 100 lines and many (eg. Abilities and callbacks)
+C++style polymorphism used for heavier scripts, contents > 300 lines
+"		
+Tuesday, September 08, 2015	10:00:00 AM	12:00:00 AM	14:00	necromancer boss work + bugfixes(2h); some project cleanups(1h)			
+Wednesday, September 09, 2015	11:00:00 AM	12:00:00 AM	13:00	necromancer boss ult working; bugfixes(3h)			
+Thursday, September 10, 2015	11:00:00 AM	12:00:00 AM	13:00	Hanging text for units(1h); animation duration tweaks(1h); Feedback sounds(3h)	- better to make a state machine for controlling sub-phases of an ability (esp. boss ultimates)		
+Friday, September 11, 2015	11:00:00 AM	12:00:00 AM	13:00	"Listener, + rolloff for sounds added(1h), 
+pathing endpoint detection rework(2h), 
+Camera focus for hero(0.5h)"	musing on how to improve runtime compiled cpp		
+Saturday, September 12, 2015	11:00:00 AM	12:00:00 AM	13:00	attempting improved runtime cpp tests(1h), merge game with frontend(3h)	"Dll live reload
+Facts: 
+- static data will be reloaded in dlls
+- stored function pointers  need to be reloaded
+Solns:
+1) reload only a subset of gameplay code
+- Problems: Calls to the rest of the library need to be done through a global context. 
+2) change entire backend, framework and frontend to a dll
+- problems: remove/modify third party libraries that use statics. Remove statics(inc singletons)"		
+Sunday, September 13, 2015	11:00:00 AM	03:00:00 PM	04:00	Some royal guard skills updated(2h), circle gui to show cast ranges/self aoe range(1h), some bugfixes			
+Monday, September 14, 2015	11:00:00 AM	01:00:00 AM	14:00	cleanups; optimizations for pathing(4h), opt for rendering(2h); developer mode(1h)	Build monitor: 45mins		
+Tuesday, September 15, 2015	11:00:00 AM	01:00:00 AM	14:00	opt for pathing(2h); necromancer ult improvements(2h);	Build monitor: 21mins		
+Wednesday, September 16, 2015	11:00:00 AM	12:00:00 AM	13:00	prototype gameplay efx system with 4 effects(3h); seperate floor and blocker mesh(2h)			
+Thursday, September 17, 2015	11:00:00 AM	04:00:00 AM	17:00	correcting terrain mesh shadows(2h), working on interpolation system for terrain(1h) PROCASTINATION!	Build monitor: 19mins		
+Friday, September 18, 2015	11:00:00 AM	02:00:00 AM	15:00	finish interp terrain(2h), changed icemake polygons(2h)	Build monitor: 12mins		
+Saturday, September 19, 2015	11:00:00 AM	04:00:00 AM	17:00	holes and blockers now push targets away(2h)PROCASTINATION!			
+Sunday, September 20, 2015	01:00:00 PM	04:00:00 PM	03:00	projectile now inserts a circle(1h), trails for projectile(1h)			
+Monday, September 21, 2015	03:00:00 PM	03:00:00 AM	12:00	refactor scripts(2h); lightmage boss ultimate work(2h)			
+Tuesday, September 22, 2015	11:00:00 AM	02:30:00 AM	15:30	"lightmage boss ult + 1 ability(2h); 
+Mousecursor clip to main window(0.25h);
+got rid of singleton usage(2h)"			
+Wednesday, September 23, 2015	11:00:00 AM	02:30:00 AM	15:30	"Intro sequence(3h); some balancing(1h);
+getting rid of static variable usage(3h)"			
+Thursday, September 24, 2015	11:00:00 AM	11:30:00 PM	12:30	getting rid of static variable usage(3h)			
+Friday, September 25, 2015	12:00:00 PM	12:00:00 AM	12:00	Basic live code reload(3h)			
+Saturday, September 26, 2015	01:00:00 PM	12:00:00 AM	11:00	live code reload work(1h)			
+Sunday, September 27, 2015	01:00:00 PM	12:00:00 AM		debugging live code reload bug causes(1h)			
+Monday, September 28, 2015	12:00:00 PM	12:00:00 AM	12:00	found  live reload crash bug cause(1h)			
+Tuesday, September 29, 2015	12:00:00 PM	12:00:00 AM	12:00	Basic dll live reload (2h)			
+Wednesday, September 30, 2015	11:00:00 AM	12:00:00 AM	13:00	livecode finished(3h); enum descriptors(1h); navreplays(2h)			
+Thursday, October 01, 2015	11:00:00 AM	12:00:00 AM	13:00	Edges removed upon navmesh modification(2h); 1 bugfix for navmesh modifcation(2h)			
+Friday, October 02, 2015	11:00:00 AM	04:00:00 AM	17:00	Bugfixing navmesh modifications(2h) PROCASTINATION!			
+Saturday, October 03, 2015	12:00:00 PM	04:00:00 AM	16:00	Bugfixing navmesh modifications(1h)PROCASTINATION!			
+Sunday, October 04, 2015							
+Monday, October 05, 2015	12:00:00 PM	12:00:00 AM	12:00	basic replay system with select/move/attack/amove cmds(3h)			
+Tuesday, October 06, 2015	12:00:00 PM	02:00:00 AM	14:00	"basic rewinding(3h); ui cleanup + prep for ui slider(1h); 
+Navmesh bugfix attempt(1h)"			
+Wednesday, October 07, 2015	12:00:00 PM	03:00:00 AM	15:00	navmesh bugfix attempt(2h)			
+Thursday, October 08, 2015	12:00:00 PM	03:00:00 AM	15:00	"navmesh bugfix attempt(1h); fixed cursor busy problem(1h);
+"			
+Friday, October 09, 2015	05:00:00 AM	03:00:00 AM	22:00	"plan for intro scene(2h); finished up uislider(2h);
+animated cursors(6h)"			
+Saturday, October 10, 2015	12:00:00 PM	04:00:00 AM	16:00	"Auto-revert selection when not controlling controllable 
+units(2h); Flashing circle on attack(1h); bugfix for attack 
+move not moving to endpt(0.5h); ability button feedback(4h)"	alternative navmesh modification model: blockers now use standard constraint removal, projectile now just clears them on hit. Make forming blocks full of smaller triangles		
+Sunday, October 11, 2015	12:00:00 PM	03:00:00 PM	03:00	replay play/pause, speedup/down(1h)			
+Monday, October 12, 2015	12:00:00 PM	04:00:00 AM	16:00	"ui animations reloadable(4h); code-based scaling animation(1h); ability icons
+Replaced and repositioned(1h)"	"code refactor takes longer for less benefit?!
+Build Monitor – 16mins"		
+Tuesday, October 13, 2015	11:30:00 AM	05:00:00 AM	17:30	"modeless for input abilties/stop/hold commands(1h), gui input absorbtion(2h);
+Tuning for ability text(0.5h); intro sequence updates(0.5h)"			
+Wednesday, October 14, 2015	11:30:00 AM	03:00:00 AM	15:30	box area spatials(0.5h); intro sequence updates(2h), sleeping z animation(1h), animated scrolling text(3h)			
+Thursday, October 15, 2015	12:30:00 PM	03:30:00 AM	15:00	intro sequence bugfixes + work(2h); PROCRASTINATION!!			
+Friday, October 16, 2015	12:30:00 PM	03:00:00 AM	14:30	intro sequence work(2h), setactive for everything(1h)			
+Saturday, October 17, 2015	12:30:00 PM	03:00:00 AM	14:30	intro sequence work(2h)			
+Sunday, October 18, 2015	12:30:00 PM	03:00:00 PM	02:30	intro sequence work(1h)			
+Monday, October 19, 2015	12:30:00 PM	01:00:00 AM	12:30	intro sequence(1h); intro encounter 01(1h)			
+Tuesday, October 20, 2015	12:30:00 PM	01:00:00 AM	12:30	intro sequence(1h); kiddo encounter(1h); PROCRASTINATION!!!	Need more direction/reference material on bosses?!		
+Wednesday, October 21, 2015	12:30:00 PM	12:00:00 AM	11:30	polishing intro sequence, userbility issues(2h); PROCRASTINATION!!!			
+Thursday, October 22, 2015	12:30:00 PM	12:00:00 AM	11:30	Epsilon bugfix, PROCASTINATION!(0h)			
+Friday, October 23, 2015	12:30:00 PM	01:00:00 AM	12:30	lots of navmesh change fixes(4h); projectiles now change faces(2h)			
+Saturday, October 24, 2015	12:30:00 PM	01:00:00 AM	12:30	navmesh discrete piece insertion experiments(4h)			
+Sunday, October 25, 2015							
+Monday, October 26, 2015	02:30:00 PM	12:00:00 AM	09:30	"ice make shape changed(1h);reclaiming land: indication of inavalid placement errors, 
+shapes change as per land/hole modification(3h)"			
+Tuesday, October 27, 2015	02:30:00 PM	01:00:00 AM	10:30	navmesh edge insertion bugfix no longer using adjacencies(3h)			
+Wednesday, October 28, 2015	01:30:00 PM	01:00:00 AM	11:30	navmesh edge insertion bugfix, epsilons removed(2h), recording edge removals(1h)	crash rate for insertion close to 0 now (but still retains edges with crossval 0)		
+Thursday, October 29, 2015	01:30:00 PM	01:00:00 AM	11:30	navmesh removal bugfix(2h)	time to consider alternative to prevent crashes due to epsilon		
+Friday, October 30, 2015	11:30:00 AM	12:00:00 AM	12:30	navmesh more safety returns/bugfixes(4h)	"Localization tip: http://games.greggman.com/game/designing_games_for_localization/
+Use horizontal button bars so we have more space for localized text
+Artstyle tip: 
+http://forums.tigsource.com/index.php?topic=44840.0
+- If it doesnt look good in black n white, it doesnt look good
+- 2d: grab a screenshot of a level unlit, and use that as the background layer, working new assets on top of that in another layer (transferring after their finished)"		
+Saturday, October 31, 2015	11:30:00 AM	12:00:00 AM	12:30	navmesh fixes, target dummies, test build (2h)			
+Sunday, November 01, 2015							
+Monday, November 02, 2015	11:30:00 AM	02:00:00 AM	14:30	reading up on artstyles, terrain, deciding objectives (3h)			
+Tuesday, November 03, 2015	11:30:00 AM	01:00:00 AM	13:30	setup terrain texturing(2h), PROCRASTINATION!			
+Wednesday, November 04, 2015	01:30:00 PM	01:00:00 AM	11:30	bugfixes with terrain texturing, winding orders(3h)			
+Thursday, November 05, 2015	11:30:00 AM	01:00:00 AM	13:30	terrain splat for holes to flatground(2h), PROCRASTINATION!			
+Friday, November 06, 2015	11:30:00 AM	02:00:00 AM	14:30	"terrain splat for holes to flatground texcoord changes(2h), 
+writing whitebox texture to external file(3h)"			
+Saturday, November 07, 2015	11:30:00 AM	01:00:00 AM	13:30	animating splat texture + bugfixes(4h)			
+Sunday, November 08, 2015							
+Monday, November 09, 2015	11:30:00 AM	02:00:00 AM	14:30	"terrain splat conversion to intermediate texture(2h); 
+triplanar mapping does not work(2h)
+PROCRASTINATION!!"			
+Tuesday, November 10, 2015	11:30:00 AM	02:00:00 PM	02:30	trying to solve sideplane problems(1h); LOTV out!			
+Wednesday, November 11, 2015	11:30:00 AM	04:00:00 PM	04:30	Terrain hole sideplanes implemented(2h). LOTV!!!			
+Thursday, November 12, 2015	01:00:00 PM	06:00:00 PM	05:00	Terrain hole sideplane textures fixed(2h) PROCRASTINATION!!!			
+Friday, November 13, 2015	01:00:00 PM	01:00:00 AM	12:00	 PROCASTINATION!!!			
+Saturday, November 14, 2015	01:00:00 PM	01:00:00 AM	12:00	undersideplane animations(2h)  PROCASTINATION!!!			
+Sunday, November 15, 2015							
+Monday, November 16, 2015	10:30:00 AM	01:00:00 AM	14:30	cleanups, particle work(1h) PROCASTINATION!!			
+Tuesday, November 17, 2015	10:30:00 AM	01:00:00 AM	14:30	Billboard particle system simple rendering(6h)			
+Wednesday, November 18, 2015	10:30:00 AM	01:00:00 AM	14:30	billboard particle bugfixes with hlsl packing(2h)			
+Thursday, November 19, 2015	10:30:00 AM	01:00:00 AM	14:30	particle emitter functionalities(2h)			
+Friday, November 20, 2015	11:30:00 AM	01:00:00 AM	13:30	particle sorting, ribbon thinkthrough(3h)			
+Saturday, November 21, 2015	10:30:00 AM	01:00:00 AM	14:30	ribbon work(4h)			
+Sunday, November 22, 2015				some ribbon work(1h)			
+Monday, November 23, 2015	12:30:00 PM	02:00:00 AM	13:30	First ribbon implementation(3h)			
+Tuesday, November 24, 2015	12:30:00 PM	02:00:00 AM	13:30	Ribbon sorting work, optimizing staticmesh, untracked meshes(3h)			
+Wednesday, November 25, 2015	12:30:00 PM	12:00:00 AM	11:30	deciding what to impl(0h)			
+Thursday, November 26, 2015	12:30:00 PM	02:00:00 AM	13:30	deciding what to impl(0h)			
+Friday, November 27, 2015	12:30:00 PM	12:00:00 AM	11:30	gameplayboarding(3h)			
+Saturday, November 28, 2015	12:30:00 PM	06:00:00 PM	05:30	Navedit stamping reload; navedit scaling(2h)			
+Sunday, November 29, 2015							
+Monday, November 30, 2015	11:30:00 AM	01:00:00 AM	13:30	Encounter #2 gameplayboarding(1h); work on script kiddie encounter(1h)			
+Tuesday, December 01, 2015	11:30:00 AM	01:00:00 AM	13:30	script kiddie encounter ability work(2h); PROCASTINATION!!!			
+Wednesday, December 02, 2015	11:30:00 AM	01:00:00 AM	13:30	some refactoring for boss encounters and script ids(3.5h)			
+Thursday, December 03, 2015	06:00:00 PM	01:00:00 AM	07:00	script kiddie encounter(2h)			
+Friday, December 04, 2015	11:30:00 AM	01:00:00 AM	13:30	stamp rotation, hardcode cursor stamp, initial landmass for buddha enc(3h)	making encounters should be done in timespan of 2-4 days		
+Saturday, December 05, 2015	11:30:00 AM	01:00:00 AM	13:30	buddha encounter, destruction palm ability(2h)			
+Sunday, December 06, 2015							
+Monday, December 07, 2015	01:30:00 PM	12:00:00 AM	10:30	gfxcmp now uses non-ptr transforms(1h); destruction palm ability(3h)			
+Tuesday, December 08, 2015	11:30:00 AM	12:00:00 AM	12:30	Pushing mechanics(3h), falling down(1h), levitation collision(1h), levitation pathing wip(1h)			
+Wednesday, December 09, 2015	03:30:00 PM	12:00:00 AM	08:30	levitation pathing+gameplay(2h), bugfixes for gfx(1h), buddha ultimate ability(1h)			
+Thursday, December 10, 2015	03:30:00 PM	12:00:00 AM	08:30	added fieldofsuffering ability(1h), bugfix for linking to ability(0.5h)			
+Friday, December 11, 2015	03:30:00 PM	12:00:00 AM	08:30	actionlist musing(0h); PROCASTINATION!			
+Saturday, December 12, 2015	03:30:00 PM	12:00:00 AM	08:30	actionlist musing(0h); PROCASTINATION!			
+Sunday, December 13, 2015							
+Monday, December 14, 2015	11:30:00 AM	12:00:00 AM	12:30	actionlist musing + integration(3h); POSTEVENING YOUTUBE PROCASTINATION!!			
+Tuesday, December 15, 2015	11:30:00 AM	12:00:00 AM	12:30	buddha boss tuning(4h); bugfixes with navmesh(1h)			
+Wednesday, December 16, 2015	11:30:00 AM	11:00:00 AM	23:30	buddha boss tuning(2h); bugfixes with projectiles/triggers/steering(1h)			
+Thursday, December 17, 2015	10:30:00 AM	11:00:00 PM	12:30	intro rework wip(2h); hub rework			
+Friday, December 18, 2015	10:30:00 AM	12:00:00 AM	13:30	intro rework wip(2h); fixing atb member visitation(3h)			
+Saturday, December 19, 2015	01:30:00 PM	12:00:00 AM	10:30	Refactoring unit prefabs(3h)			
+Sunday, December 20, 2015							
+Monday, December 21, 2015	11:00:00 AM	12:00:00 AM	13:00	hub rework, hall of heroes(3h); encounter selection work(2h)	scaling: scale at different # of players, and selected difficulty		
+Tuesday, December 22, 2015	11:00:00 AM	12:00:00 AM	13:00	added navbound cmp, 'permanent additions' to navmesh(4h)			
+Wednesday, December 23, 2015	11:00:00 AM	12:00:00 AM	13:00	PROCASTINATION! Hub intro work(1h)			
+Thursday, December 24, 2015	11:00:00 AM	12:00:00 AM	13:00	16 iterations on hub intro, bugfixes, navmesh insertion fix (4h)			
+Friday, December 25, 2015	11:00:00 AM	12:00:00 AM	13:00	"decision to remove barriers and replace with units instead; 
+navmesh merge constraint edges fixes(2h);
+Atb basic type array bugfix(1h)"	PROCASTINATION! OMFG! MERRY CHRISTMAS		
+Saturday, December 26, 2015	11:00:00 AM	12:00:00 AM	13:00	intro trimmed and reworked even further (3h)			
+Sunday, December 27, 2015							
+Monday, December 28, 2015	11:00:00 AM	12:00:00 AM	13:00	10/16 iterations; intro polish + hints, hub work, items wip (4h)			
+Tuesday, December 29, 2015	11:00:00 AM	12:00:00 AM	13:00	16/16 iterations;Using new maintenence-free enums(2h), items work(5h)			
+Wednesday, December 30, 2015	11:00:00 AM	02:00:00 AM	15:00	7/16 iterations; item use, additional item use checks, instant casting, gui bugfixes(4h)			
+Thursday, December 31, 2015	11:00:00 AM	01:00:00 AM	14:00	7/16 iterations;item work, saving acroos boundaries, enum rework (5h)			
+Friday, January 01, 2016	12:00:00 PM	01:00:00 AM	13:00	4/16 iterations; item work (2h), working on shops(1h)			
+Saturday, January 02, 2016	04:00:00 PM	01:00:00 AM	09:00	item shop registering, item shop buyer selection(2h)			
+Friday, January 02, 2015							

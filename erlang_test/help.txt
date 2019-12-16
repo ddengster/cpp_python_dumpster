@@ -1,0 +1,4 @@
+http://learnyousomeerlang.com/buckets-of-sockets#io-lists
+https://happi.github.io/theBeamBook/
+
+gen_udp, gen_tcp, inet

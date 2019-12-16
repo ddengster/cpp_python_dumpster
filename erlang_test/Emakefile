@@ -1,0 +1,7 @@
+{'src/*', [debug_info,
+           {i, "src"},
+           {i, "include"},
+           {outdir, "ebin"}]}.
+		   
+%% then run erl -make on cmdline, start the erlange shell via erl -pa ebin/
+%% alternatively start the erl shell and call make:all([load])
